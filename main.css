@@ -1,7 +1,13 @@
 header {
+    font-size: xx-large;
     text-align: center;
 }
 
-article {
+body {
     text-align: center;
+    background-color: rgb(229, 204, 253);
+}
+
+#divMajor {
+    font-size: larger; 
 }
