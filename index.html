@@ -19,13 +19,26 @@
                 <div id="divDate"></div>
                 <div id="divHobby"></div>
             </section>
+            <br>
+            <section id="divSlideShow">
+                <img id="imgSlide" src="" alt="Robots">
+                <br>
+                <br>
+                <div>
+                    <button onclick="prevSlide()">Previous</button>
+                    <button onclick="nextSlide()">Next</button>
+                </div>
+            </section>
         </main>
 
         <!-- dynamically fill page with information -->
         <script src="script.js"></script>
+
         <script>
             // call the function
             loadData();
+            // load an image when the page loads
+            showSlide(currImage);
         </script>
     </body>
 
