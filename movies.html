@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device, initial-scale=1.0">
+        <title>Movie Sorter</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Movie List Tracker</h1>
+        </header>
+
+        <main>
+            <form>
+                <div>
+                    <label for="txtMovie">Movie Name: </label>
+                    <input type="text" id="txtMovie" name="txtMovie" placeholder="ex, Movie Time">
+                </div>
+
+                <button onclick="addMovie()">Add Movie</button>
+                <button onclick="resetMovieList()">Reset List</button>
+
+                <div id="divMovies">
+                    <!--add a movie-->
+                </div>
+            </form>
+        </main>
+
+        <!-- include the movie code -->
+        <script src="2ndscript.js"></script>
+    </body>
+</html>
