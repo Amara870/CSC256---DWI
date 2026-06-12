@@ -10,7 +10,7 @@ function addMovie() {
     let movieName = txtMovie.value.trim();
 
     // check to see if movie name is empty
-    if (movieName != " ") {
+    if (movieName != "") {
         // add movie name if value isn't empty
         arrMovies.push(movieName);
 
