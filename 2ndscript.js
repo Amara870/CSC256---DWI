@@ -15,7 +15,7 @@ function addMovie() {
         arrMovies.push(movieName);
 
         // reset movie value input variable
-        txtMovie.value = " ";
+        txtMovie.value = "";
 
         // display movies
         showMovies();
