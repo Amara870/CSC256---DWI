@@ -5,6 +5,7 @@ let arrMovies = [];
 function addMovie() {
     // shorcut for the txt input
     let txtMovie = document.getElementById("txtMovie");
+    document.querySelector('form').addEventListener('submit', e => e.preventDefault());
 
     // get movie name and remove and leading or trailing spaces
     let movieName = txtMovie.value.trim();
